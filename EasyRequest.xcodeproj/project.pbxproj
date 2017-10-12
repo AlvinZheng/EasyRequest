@@ -14,6 +14,10 @@
 		64A85A711F8F4C3100BF0A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A85A6F1F8F4C3100BF0A4C /* LaunchScreen.storyboard */; };
 		64A85A7C1F8F4C3200BF0A4C /* EasyRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A85A7B1F8F4C3200BF0A4C /* EasyRequestTests.swift */; };
 		64A85A871F8F4C3200BF0A4C /* EasyRequestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A85A861F8F4C3200BF0A4C /* EasyRequestUITests.swift */; };
+		64A85A951F8F4C6000BF0A4C /* EasyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A85A941F8F4C6000BF0A4C /* EasyRequest.swift */; };
+		64A85A971F8F4FA000BF0A4C /* RequestResponderChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A85A961F8F4FA000BF0A4C /* RequestResponderChain.swift */; };
+		64A85A991F8F4FC300BF0A4C /* RequestResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A85A981F8F4FC300BF0A4C /* RequestResponder.swift */; };
+		64A85A9B1F8F607200BF0A4C /* EasyRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A85A9A1F8F607200BF0A4C /* EasyRequestManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		64A85A821F8F4C3200BF0A4C /* EasyRequestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyRequestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A85A861F8F4C3200BF0A4C /* EasyRequestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRequestUITests.swift; sourceTree = "<group>"; };
 		64A85A881F8F4C3200BF0A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A85A941F8F4C6000BF0A4C /* EasyRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRequest.swift; sourceTree = "<group>"; };
+		64A85A961F8F4FA000BF0A4C /* RequestResponderChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestResponderChain.swift; sourceTree = "<group>"; };
+		64A85A981F8F4FC300BF0A4C /* RequestResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestResponder.swift; sourceTree = "<group>"; };
+		64A85A9A1F8F607200BF0A4C /* EasyRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRequestManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				64A85A661F8F4C3100BF0A4C /* AppDelegate.swift */,
 				64A85A681F8F4C3100BF0A4C /* ViewController.swift */,
+				64A85A941F8F4C6000BF0A4C /* EasyRequest.swift */,
+				64A85A961F8F4FA000BF0A4C /* RequestResponderChain.swift */,
+				64A85A981F8F4FC300BF0A4C /* RequestResponder.swift */,
+				64A85A9A1F8F607200BF0A4C /* EasyRequestManager.swift */,
 				64A85A6A1F8F4C3100BF0A4C /* Main.storyboard */,
 				64A85A6D1F8F4C3100BF0A4C /* Assets.xcassets */,
 				64A85A6F1F8F4C3100BF0A4C /* LaunchScreen.storyboard */,
@@ -262,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A85A971F8F4FA000BF0A4C /* RequestResponderChain.swift in Sources */,
 				64A85A691F8F4C3100BF0A4C /* ViewController.swift in Sources */,
+				64A85A951F8F4C6000BF0A4C /* EasyRequest.swift in Sources */,
 				64A85A671F8F4C3100BF0A4C /* AppDelegate.swift in Sources */,
+				64A85A991F8F4FC300BF0A4C /* RequestResponder.swift in Sources */,
+				64A85A9B1F8F607200BF0A4C /* EasyRequestManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
